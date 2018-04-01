@@ -3,7 +3,7 @@ Alien Invasion game from the book Python Crash Course: A Hands-On, Project-Based
 https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
 
 ## Getting Started
-TBD
+TBD.
 https://www.pygame.org/docs/ref/rect.html
 
 ### Prerequisites
