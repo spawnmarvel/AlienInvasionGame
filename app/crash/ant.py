@@ -1,6 +1,6 @@
 import pygame
 #https://www.pygame.org/docs/ref/rect.html
-#pygame object for storing rectangular coordinate
+#pygame object for storing rectangular coordinate, rect
 class Ant():
 
     def __init__(self, ant_settings, screen):
