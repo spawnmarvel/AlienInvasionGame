@@ -2,7 +2,7 @@ import pygame
 from pygame.sprite import Sprite
 
 class Bullet(Sprite):
-
+    #must change name for setings parameter
     def __init__(self, bul_settings, screen, ant):
         #create a bullet at the current pos
         super(Bullet, self).__init__()
