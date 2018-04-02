@@ -24,10 +24,10 @@ class Player():
         """update ant pos based on movement flag"""
         #not move out to the right of the screen
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.center += self.player_settings.ant_speed_factor
+            self.center += self.player_settings.player_speed_factor
         #not move out to the left of the screen
         if self.moving_left and self.rect.left > 0:
-            self.center -= self.player_settings.ant_speed_factor
+            self.center -= self.player_settings.player_speed_factor
         #update rect object from self.center
         self.rect.centerx = self.center
     
