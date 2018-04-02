@@ -8,7 +8,7 @@ class Player():
         self.screen = screen
         self.player_settings = player_settings
         # load ant image and get its rect
-        self.image = pygame.image.load("images/heroant.bmp")
+        self.image = pygame.image.load("images/hmp.gif")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         # starte each ant at the bottom center

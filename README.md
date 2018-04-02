@@ -6,6 +6,9 @@ https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
 TBD.
 https://www.pygame.org/docs/ref/rect.html
 
+Make you .bmp, .png, .gif transparent:
+https://www194.lunapic.com/editor/
+
 ### Prerequisites
 
 TBD
