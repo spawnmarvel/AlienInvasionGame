@@ -6,6 +6,7 @@ https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
 pygame.rect:
 <br>
 https://www.pygame.org/docs/ref/rect.html
+<br>
 pygame.key
 <br>
 https://www.pygame.org/docs/ref/key.html
@@ -22,7 +23,7 @@ Aliens 1.0 =
 Scoring, stats for game 1.0
 
 ## ToDo 1.5:
-
+Create unit test
 
 ### Installing
 

@@ -6,7 +6,7 @@ class Settings():
         self.screen_height = 700
         self.bg_color = (240, 255, 255)
         #ant speed settings
-        self.player_speed_factor = 1.5
+        self.player_speed_factor = 1 # 1.5
         #bullet settings
         self.bullet_speed_factor = 0.5
         self.bullet_width = 3
