@@ -3,14 +3,23 @@ Alien Invasion game inspired by the book Python Crash Course: A Hands-On, Projec
 https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
 
 ## Links
-TBD.
+pygame.rect:
 https://www.pygame.org/docs/ref/rect.html
+pygame.key
+https://www.pygame.org/docs/ref/key.html
 
-Make you .bmp, .png, .gif transparent:
+Make your bmp, png, gif transparent:
 https://www194.lunapic.com/editor/
 
 
-## ToDo:
+## ToDo 1.0:
+Player move left, right 1.0 = check
+Bullet 1.0 = check
+Game functions 1.0 = check
+Aliens 1.0 = 
+Scoring, stats for game 1.0
+
+## ToDo 1.5:
 
 
 ### Installing
@@ -22,7 +31,7 @@ Create a virtual env and install all the packets from requirements.txt
 
 ## Versioning
 Branch: master and test.
-For the versions available, see the [tags on this repository](https://github.com/spawnmarvel/TSK_testit.tech). 
+For the versions available, see the [tags on this repository](https://github.com/spawnmarvel/AlienInvasionGame). 
 
 ## Authors
 
