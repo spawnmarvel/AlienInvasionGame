@@ -4,8 +4,10 @@ https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
 
 ## Links
 pygame.rect:
+<br>
 https://www.pygame.org/docs/ref/rect.html
 pygame.key
+<br>
 https://www.pygame.org/docs/ref/key.html
 
 Make your bmp, png, gif transparent:
