@@ -33,9 +33,12 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
         else:
             print("Only 5 shots for each session")
 
-    # elif event.key == pygame.K_UP:
-    #    player.moving_top = True
-    #   print("Move top")
+    elif event.key == pygame.K_UP:
+        player.moving_top = True
+        print("Move top")
+    elif event.key == pygame.K_DOWN:
+        player.moving_bottom = True
+        print("Move bottom")
 
 def check_keyup_events(event, player):
     if event.key == pygame.K_RIGHT:
@@ -46,7 +49,10 @@ def check_keyup_events(event, player):
         print("stop left")
     elif event.key == pygame.K_UP:
         player.moving_up = False
-        print("stop up")
+        print("stop top")
+    elif event.key == pygame.K_DOWN:
+        player.moving_up = False
+        print("stop bottom")
 
     
 def update_bullets(bullets):

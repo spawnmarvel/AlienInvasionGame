@@ -16,10 +16,15 @@ https://www194.lunapic.com/editor/
 
 
 ## ToDo 1.0:
+<br>
 Player move left, right 1.0 = check
+<br>
 Bullet 1.0 = check
+<br>
 Game functions 1.0 = check
-Aliens 1.0 = 
+<br>
+Aliens 1.0 =
+<br>
 Scoring, stats for game 1.0
 
 ## ToDo 1.5:
