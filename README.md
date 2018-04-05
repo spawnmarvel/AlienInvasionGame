@@ -1,6 +1,10 @@
 ## Head:
-Alien Invasion game inspired by the book Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes in Python 3
+Alien Invasion game inspired by the book
+<br>
+Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes in Python 3
+<br>
 https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
+<br>
 The game will be a bit modified, see ToDo and checked
 
 ## Links
