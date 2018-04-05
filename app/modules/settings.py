@@ -1,5 +1,5 @@
 class Settings():
-    """ class for all settings"""
+    """ Settings class 1.0 """
 
     def __init__(self):
         self.screen_width = 700
@@ -12,4 +12,4 @@ class Settings():
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
-        self.bullets_allowed = 100
+        self.bullets_allowed = 6

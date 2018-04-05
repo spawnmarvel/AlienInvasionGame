@@ -1,7 +1,7 @@
 import pygame
-#https://www.pygame.org/docs/ref/rect.html
-#pygame object for storing rectangular coordinate, rect
+
 class Player():
+    """ Player class 1.0"""
 
     def __init__(self, player_settings, screen):
         # init ant and pos
@@ -54,19 +54,17 @@ class Player():
             print(format(self.moving_left))
 
         #huh.....
-        elif self.moving_bottom: # and self.rect.bottom < self.screen_rect.bottom:
+        elif self.moving_bottom and self.rect.bottom < self.screen_rect.bottom:
              print(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
              self.center_y += self.player_settings.player_speed_factor
-            # self.rect.centery = self.centerHor
              print("loop bottom")
              print(format(self.moving_bottom))
         
         
          #huh.....
-        elif self.moving_top: #and self.rect.top > 0:
+        elif self.moving_top and self.rect.top > 0:
             print(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
             self.center_y -= self.player_settings.player_speed_factor
-            # self.rect.centery = self.centerHor
             print("loop top")
             print(format(self.moving_top))
         

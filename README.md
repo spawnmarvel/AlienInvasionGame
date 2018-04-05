@@ -33,10 +33,17 @@ Game functions = checked
 Aliens = 
 <br>
 Scoring, stats for game = 
+<br>
+New game button / menu
+<br>
+Logging
 
 ## ToDo 1.5:
 <br>
 Create unit test
+<br>
+Moving background / map
+<br>3d
 
 ### Installing
 
