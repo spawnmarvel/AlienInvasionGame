@@ -54,7 +54,8 @@ def check_keyup_events(event, player):
     elif event.key == pygame.K_DOWN:
         player.moving_bottom = False
         print("stop bottom")
-    player.toString()
+    # just to check all movments
+    # player.toString()
 
     
 def update_bullets(bullets):

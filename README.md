@@ -3,7 +3,7 @@ Alien Invasion game inspired by the book
 <br>
 Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes in Python 3
 <br>
-https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
+https://nostarch.com/pythoncrashcourse
 <br>
 The game will be a bit modified, see ToDo and checked
 
@@ -16,8 +16,9 @@ pygame.key
 <br>
 https://www.pygame.org/docs/ref/key.html
 
-Make your bmp, png, gif transparent:
-https://www194.lunapic.com/editor/
+Make your bmp, png, gif transparent
+<br>
+https://www194.lunapic.com/editor/?action=transparent
 
 
 ## ToDo 1.0:
