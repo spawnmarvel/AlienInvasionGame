@@ -1,6 +1,7 @@
 ## Head:
 Alien Invasion game inspired by the book Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes in Python 3
 https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/159327603
+The game will be a bit modified, see ToDo and checked
 
 ## Links
 pygame.rect:
@@ -17,17 +18,20 @@ https://www194.lunapic.com/editor/
 
 ## ToDo 1.0:
 <br>
-Player move left, right 1.0 = check
+Player move left, right = checked
 <br>
-Bullet 1.0 = check
+Player move up and down = checked
 <br>
-Game functions 1.0 = check
+Firing bullet = checked
 <br>
-Aliens 1.0 =
+Game functions = checked
 <br>
-Scoring, stats for game 1.0
+Aliens = 
+<br>
+Scoring, stats for game = 
 
 ## ToDo 1.5:
+<br>
 Create unit test
 
 ### Installing

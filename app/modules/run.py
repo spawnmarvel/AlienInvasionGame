@@ -18,6 +18,7 @@ def run_game():
 
     #starts the main loop for the game, controll
     while True:
+        # print("play")
         #watch for keys and mouse
         game_function.check_events(game_settings, screen, hero, bullets)
         hero.update()

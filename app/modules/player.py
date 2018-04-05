@@ -15,37 +15,64 @@ class Player():
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
         #store a decimal value for the ants center
-        self.center = float(self.rect.centerx)
+        self.center_x = float(self.rect.centerx)
         
         #movment flag
         self.moving_right = False
         self.moving_left = False
 
-        #huh.....
-        #self.rect.top = self.screen_rect.top
-        #self.top = float(self.rect.top)
+        # 
+        self.rect.centery = self.screen_rect.centery
+        self.center_y = float(self.rect.centery)
         self.moving_top = False
         self.moving_bottom = False
 
+    def toString(self):
+        print("bool bottom " +format(self.moving_bottom))
+        print("bool top " +format(self.moving_top))
+        print("bool left " +format(self.moving_left))
+        print("bool right " +format(self.moving_right))
+
     def update(self):
         """update ant pos based on movement flag"""
+        # print("bool bottom " +format(self.moving_bottom))
+        # print("bool top " +format(self.moving_top))
+        # print("bool left " +format(self.moving_left))
+        # print("bool right " +format(self.moving_right))
         #not move out to the right of the screen
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.center += self.player_settings.player_speed_factor
-            # print(format(self.center))
+            print(format(self.rect.right) + "self right, screen right " + format(self.screen_rect.right))
+            self.center_x += self.player_settings.player_speed_factor
+            print("loop right")
+
+            print(format(self.moving_right))
         #not move out to the left of the screen
-        if self.moving_left and self.rect.left > 0:
-            self.center -= self.player_settings.player_speed_factor
-            # print(format(self.center))
+        elif self.moving_left and self.rect.left > 0:
+            print(format(self.rect.left) + "self left, screen left " + format(self.screen_rect.left))
+            self.center_x -= self.player_settings.player_speed_factor
+            print("loop left")
+            print(format(self.moving_left))
 
         #huh.....
-        if self.moving_top and self.rect.top < self.screen_rect.top:
-            pass
-            # self.top -= self.player_settings.player_speed_factor   
-        #update rect object from self.center
-        self.rect.centerx = self.center
-        #huh....
-        # self.rect.top = self.top
+        elif self.moving_bottom: # and self.rect.bottom < self.screen_rect.bottom:
+             print(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
+             self.center_y += self.player_settings.player_speed_factor
+            # self.rect.centery = self.centerHor
+             print("loop bottom")
+             print(format(self.moving_bottom))
+        
+        
+         #huh.....
+        elif self.moving_top: #and self.rect.top > 0:
+            print(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
+            self.center_y -= self.player_settings.player_speed_factor
+            # self.rect.centery = self.centerHor
+            print("loop top")
+            print(format(self.moving_top))
+        
+        
+        self.rect.centerx = self.center_x
+        self.rect.centery = self.center_y
         
     
     def blitme(self):

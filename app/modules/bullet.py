@@ -8,7 +8,7 @@ class Bullet(Sprite):
         super(Bullet, self).__init__()
         self.screen = screen
 
-        #create bullet rect at 0 0and then set correct pos
+        #create bullet rect at 0 0 and then set correct pos
         self.rect = pygame.Rect(0, 0,  bul_settings.bullet_width, bul_settings.bullet_height)
         self.rect.centerx = ant.rect.centerx
         self.rect.top = ant.rect.top

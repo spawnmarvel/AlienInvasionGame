@@ -48,24 +48,25 @@ def check_keyup_events(event, player):
         player.moving_left = False
         print("stop left")
     elif event.key == pygame.K_UP:
-        player.moving_up = False
+        player.moving_top = False
         print("stop top")
     elif event.key == pygame.K_DOWN:
-        player.moving_up = False
+        player.moving_bottom = False
         print("stop bottom")
+    player.toString()
 
     
 def update_bullets(bullets):
     bullets.update()
-    #remove bullets beacuse they exist outside the screen
+    #remove bullets beacuse they exist outside the screen (would just consumer more and more ram)
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)   
         #print(len(bullets))
 
-def update_screen(ant_settings, screen, player, bullets):
+def update_screen(s_settings, screen, player, bullets):
     """redraw the screen during each pass in loop"""
-    screen.fill(ant_settings.bg_color)
+    screen.fill(s_settings.bg_color)
     #redraw all bullets behind ship and aliens
     for bullet in bullets.sprites():
         bullet.draw_bullet()
