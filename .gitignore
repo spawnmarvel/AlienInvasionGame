@@ -5,5 +5,4 @@ __pycache__
 *.db
 *.logs
 *.log
-logs
 *.service
