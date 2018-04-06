@@ -15,10 +15,14 @@ https://www.pygame.org/docs/ref/rect.html
 pygame.key
 <br>
 https://www.pygame.org/docs/ref/key.html
-
+<br>
 Make your bmp, png, gif transparent
 <br>
 https://www194.lunapic.com/editor/?action=transparent
+<br>
+Logging
+<br>
+https://docs.python.org/3.4/library/logging.html
 
 
 ## ToDo 1.0:

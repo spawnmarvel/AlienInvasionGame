@@ -1,4 +1,7 @@
 import pygame
+import logging
+logger = logging.getLogger("Player")
+
 
 class Player():
     """ Player class 1.0"""
@@ -26,6 +29,7 @@ class Player():
         self.center_y = float(self.rect.centery)
         self.moving_top = False
         self.moving_bottom = False
+        logger.info("Player instance")
 
     def toString(self):
         print("bool bottom " +format(self.moving_bottom))
@@ -41,32 +45,21 @@ class Player():
         # print("bool right " +format(self.moving_right))
         #not move out to the right of the screen
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            print(format(self.rect.right) + "self right, screen right " + format(self.screen_rect.right))
+            # print(format(self.rect.right) + "self right, screen right " + format(self.screen_rect.right))
             self.center_x += self.player_settings.player_speed_factor
-            print("loop right")
-
-            print(format(self.moving_right))
+            # print(format(self.moving_right))
         #not move out to the left of the screen
         elif self.moving_left and self.rect.left > 0:
-            print(format(self.rect.left) + "self left, screen left " + format(self.screen_rect.left))
+            # print(format(self.rect.left) + "self left, screen left " + format(self.screen_rect.left))
             self.center_x -= self.player_settings.player_speed_factor
-            print("loop left")
-            print(format(self.moving_left))
-
-        #huh.....
+        # not move passed bottom
         elif self.moving_bottom and self.rect.bottom < self.screen_rect.bottom:
-             print(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
+             # print(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
              self.center_y += self.player_settings.player_speed_factor
-             print("loop bottom")
-             print(format(self.moving_bottom))
-        
-        
-         #huh.....
+        # not move beyond top
         elif self.moving_top and self.rect.top > 0:
-            print(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
+            # print(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
             self.center_y -= self.player_settings.player_speed_factor
-            print("loop top")
-            print(format(self.moving_top))
         
         
         self.rect.centerx = self.center_x

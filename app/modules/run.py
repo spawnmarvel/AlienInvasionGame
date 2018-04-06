@@ -4,8 +4,11 @@ from player import Player
 import game_functions as game_function
 from pygame.sprite import Group
 
+
+
 def run_game():
     #init and cretat screen object
+   
     pygame.init()
     #pixels 800 x 800, screen is surface for the game
     game_settings = Settings()
@@ -27,4 +30,15 @@ def run_game():
         game_function.update_screen(game_settings, screen, hero, bullets)
         
 
-run_game()
+
+if __name__ == "__main__":
+    import logging
+    from logging.handlers import RotatingFileHandler
+    FORMAT = "[%(asctime)s : %(levelname)s : %(filename)s : %(lineno)s : %(funcName)20s() ] %(message)s"
+    logging.basicConfig(filename="logs/logs.log", level=logging.DEBUG, format=FORMAT)
+	# simple format  # "%(asctime)s - %(levelname)s - %(message)s")
+    logger = logging.getLogger("main")
+    logger.info("Main started")
+    print("Game started / check logs for information app/modules/log/log.log")
+    run_game()
+    

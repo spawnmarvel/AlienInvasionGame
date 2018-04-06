@@ -1,11 +1,12 @@
-
-
 import pygame
 from pygame.sprite import Sprite
+import logging
+logger = logging.getLogger("Bullet")
+
 
 class Bullet(Sprite):
     """ Bullet class 1.0"""
-    
+
     #must change name for setings parameter
     def __init__(self, s_settings, screen, ant):
         #create a bullet at the current pos
@@ -21,6 +22,7 @@ class Bullet(Sprite):
 
         self.color = s_settings.bullet_color
         self.speed_factor = s_settings.bullet_speed_factor
+        logger.info("Bullet instance")
 
     def update(self):
         #move the bullet

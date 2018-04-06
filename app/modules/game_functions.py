@@ -1,7 +1,8 @@
-
 import sys
 import pygame
 from bullet import Bullet
+import logging
+logger = logging.getLogger("Game functions")
 
 
 def check_events(s_settings, screen, player, bullets):
@@ -21,39 +22,39 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
     if event.key == pygame.K_RIGHT:
         #move the ship to the right
         player.moving_right = True
-        print("move right")
+        logger.debug("move right")
     elif event.key == pygame.K_LEFT:
         player.moving_left = True
-        print("move left")
+        logger.debug("move left")
     elif event.key == pygame.K_SPACE:
         # create a new bullet and add it
         if len(bullets) < s_settings.bullets_allowed:
             new_bullet = Bullet(s_settings, screen, player)
             bullets.add(new_bullet)
-            print("Shoot bullet")
+            logger.debug("Shoot bullet")
         else:
-            print("Only 5 shots for each session")
+            logger.debug("Only 5 shots for each session")
 
     elif event.key == pygame.K_UP:
         player.moving_top = True
-        print("Move top")
+        logger.debug("Move top")
     elif event.key == pygame.K_DOWN:
         player.moving_bottom = True
-        print("Move bottom")
+        logger.debug("Move bottom")
 
 def check_keyup_events(event, player):
     if event.key == pygame.K_RIGHT:
         player.moving_right = False
-        print("stop right")
+        logger.debug("stop right")
     elif event.key == pygame.K_LEFT:
         player.moving_left = False
-        print("stop left")
+        logger.debug("stop left")
     elif event.key == pygame.K_UP:
         player.moving_top = False
-        print("stop top")
+        logger.debug("stop top")
     elif event.key == pygame.K_DOWN:
         player.moving_bottom = False
-        print("stop bottom")
+        logger.debug("stop bottom")
     # just to check all movments
     # player.toString()
 
