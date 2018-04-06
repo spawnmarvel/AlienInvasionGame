@@ -41,7 +41,7 @@ Scoring, stats for game =
 <br>
 New game button / menu
 <br>
-Logging
+Logging = ckecked
 
 ## ToDo 1.5:
 <br>
