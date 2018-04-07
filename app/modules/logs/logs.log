@@ -303,3 +303,539 @@
 [2018-04-07 00:27:38,452 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
 [2018-04-07 00:27:38,452 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
 [2018-04-07 00:27:38,644 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 00:30:53,624 : INFO : run.py : 42 :             <module>() ] Main started
+[2018-04-07 00:30:54,229 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 00:30:54,668 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 00:30:54,668 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 00:30:54,852 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 00:30:54,852 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 00:30:54,964 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 00:30:55,084 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 00:30:55,172 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 00:30:55,172 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 00:30:55,196 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 00:30:55,275 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 00:30:55,356 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 00:30:55,379 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 00:30:55,380 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 00:30:55,476 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:05:34,941 : INFO : run.py : 42 :             <module>() ] Main started
+[2018-04-07 12:05:35,719 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 12:05:37,638 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:37,638 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:42,493 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:05:42,669 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:05:44,581 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:05:44,685 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:05:45,581 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:05:46,149 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:05:47,949 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 12:05:48,973 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 12:05:50,877 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:50,877 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:51,981 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:05:52,133 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:05:52,581 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:52,581 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:52,757 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:52,757 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:52,957 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:52,957 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:53,150 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:53,150 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:53,334 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:53,334 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:53,501 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:53,693 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:53,893 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:54,086 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:54,278 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:55,701 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:55,701 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:55,894 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:55,894 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:56,069 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:56,070 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:56,261 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:56,262 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:56,469 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:56,469 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:56,678 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:56,853 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:57,037 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:58,125 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:58,125 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:58,349 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:58,349 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:58,550 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:58,550 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:58,758 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:58,758 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:58,949 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:05:58,949 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:05:59,149 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:59,357 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:59,557 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:05:59,766 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:00,453 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:00,621 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:00,717 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:00,717 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:00,885 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:00,885 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:01,069 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:01,069 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:01,269 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:01,269 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:01,437 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:01,581 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:01,661 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:01,662 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:01,862 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:02,045 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:02,213 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:02,301 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:02,429 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:02,629 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:02,629 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:02,838 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:02,949 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:03,077 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:03,133 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:03,230 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:03,285 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:03,389 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:03,445 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:03,597 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:03,597 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:03,781 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:03,781 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:03,981 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:03,981 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:04,165 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:04,165 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:04,341 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:04,566 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:04,566 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:04,749 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:04,990 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:05,125 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:05,197 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:05,389 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:05,589 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:05,589 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:06,245 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:06,405 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:06,878 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:06,878 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:07,094 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:07,094 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:07,270 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:07,357 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:07,477 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:07,478 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:07,541 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:07,637 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:07,749 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:07,749 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:07,789 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:07,925 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:07,997 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:07,997 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:08,085 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:08,189 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:08,277 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:08,349 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:08,397 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:08,397 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:08,469 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:08,533 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:08,654 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:08,654 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:08,654 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:08,701 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:08,837 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:08,877 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:08,910 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:09,037 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:09,109 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:09,110 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:09,110 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:09,237 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:09,341 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:09,429 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:09,429 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:09,429 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:09,517 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:09,614 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:09,701 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:09,813 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:09,893 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:09,893 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:09,917 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:10,077 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:10,077 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:10,077 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:10,197 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:10,269 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:10,270 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:10,270 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:10,357 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:10,469 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:10,469 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 12:06:10,541 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 12:06:10,686 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:10,686 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:10,686 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:10,750 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:10,846 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:10,886 : DEBUG : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 12:06:10,917 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:11,013 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 12:06:11,062 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:11,062 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:11,101 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 12:06:11,261 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:11,262 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:11,262 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:11,301 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:11,421 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:11,437 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:11,437 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:11,485 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:11,597 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:11,653 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:11,653 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:11,685 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 12:06:11,790 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 12:06:11,813 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 12:06:11,813 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 12:06:11,893 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:51:59,806 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:52:00,378 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:52:02,462 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:02,462 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:02,606 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:02,606 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:02,750 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:02,853 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:02,853 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:02,854 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:02,981 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:02,997 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:02,997 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:03,070 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:03,213 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:03,213 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:03,309 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:03,390 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:03,501 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:03,565 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:03,566 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:03,566 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:03,677 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:03,725 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:03,725 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:03,758 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:03,861 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:03,894 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:03,895 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:03,942 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:04,038 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:04,054 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:04,054 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:04,133 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:04,381 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 16:52:04,478 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 16:52:04,685 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 16:52:04,773 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 16:52:04,853 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 16:52:04,933 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 16:52:05,045 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:05,046 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:05,046 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:05,117 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:05,214 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:05,237 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:05,238 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:05,286 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:05,381 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:05,406 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:05,406 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:05,461 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:05,557 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:05,589 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:05,589 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:05,653 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:05,870 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 16:52:05,957 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 16:52:06,038 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 16:52:06,093 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 16:52:06,190 : DEBUG : game_functions.py : 40 : check_keydown_events() ] Move top
+[2018-04-07 16:52:06,190 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 16:52:06,253 : DEBUG : game_functions.py : 54 :   check_keyup_events() ] stop top
+[2018-04-07 16:52:06,254 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 16:52:06,373 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:06,373 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:06,413 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:06,493 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:06,557 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:06,557 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:06,581 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:06,637 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:06,741 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:06,742 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:06,742 : DEBUG : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:52:06,814 : DEBUG : game_functions.py : 51 :   check_keyup_events() ] stop left
+[2018-04-07 16:52:06,981 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 16:52:07,093 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 16:52:07,213 : DEBUG : game_functions.py : 43 : check_keydown_events() ] Move bottom
+[2018-04-07 16:52:07,254 : DEBUG : game_functions.py : 57 :   check_keyup_events() ] stop bottom
+[2018-04-07 16:52:07,342 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:07,485 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:07,509 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:07,597 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:07,597 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:07,645 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:07,805 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:07,805 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:07,870 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:07,965 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:08,125 : DEBUG : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:52:08,133 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:08,134 : DEBUG : game_functions.py : 34 : check_keydown_events() ] Shoot bullet
+[2018-04-07 16:52:08,245 : DEBUG : game_functions.py : 48 :   check_keyup_events() ] stop right
+[2018-04-07 16:52:25,950 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:52:26,544 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:52:27,846 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:28,038 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:28,237 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:31,469 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:31,669 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:31,869 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:32,054 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:32,925 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:33,085 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:33,261 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:33,998 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:34,166 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:34,933 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:35,117 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:35,438 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:35,654 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:36,357 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:36,557 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:36,781 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:41,965 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:42,149 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:42,541 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:43,030 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:43,293 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:43,637 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:44,565 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:44,765 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:45,045 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:45,254 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:45,365 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:46,197 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:46,445 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:46,709 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:47,549 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:52:47,957 : INFO : bullet.py : 25 :             __init__() ] Bullet instance
+[2018-04-07 16:53:14,306 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:53:14,886 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:54:21,251 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:54:21,877 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:54:27,497 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:27,698 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:27,879 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:32,404 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:32,586 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:32,745 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:32,973 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:33,162 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:34,234 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:34,412 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:34,615 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:34,840 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:35,054 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:36,198 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:36,381 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:36,562 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:36,743 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:36,929 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:38,112 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:38,313 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:38,508 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:38,706 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:38,908 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:40,090 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:54:40,284 : INFO : game_functions.py : 68 :       update_bullets() ] Bullet removed outside screen
+[2018-04-07 16:55:00,695 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:55:01,303 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:55:10,197 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:55:12,061 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:55:12,277 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:55:12,477 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:18,016 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:56:18,658 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:56:21,286 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:21,597 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:21,788 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:22,005 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:22,205 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:22,413 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:22,620 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:23,237 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:23,429 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:23,597 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:23,773 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:24,397 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:24,574 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:24,717 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:24,869 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:25,045 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:25,229 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:25,381 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:26,302 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:26,541 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:26,541 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:26,724 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:26,933 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:27,373 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:27,598 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:27,789 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:27,973 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:28,413 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:29,037 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:29,214 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:29,389 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:29,581 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:30,189 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:30,325 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:30,469 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:30,734 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:30,918 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:31,053 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:31,229 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:31,461 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:31,653 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:31,845 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:32,093 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:32,308 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:32,477 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:32,508 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:32,653 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:32,925 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:33,077 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:33,245 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:33,901 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:34,077 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:34,269 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:34,317 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:34,485 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:34,486 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:34,709 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:34,724 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:35,637 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:36,109 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:36,469 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:36,670 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:36,821 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:37,053 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:37,221 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:37,429 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:37,726 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:37,933 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:38,109 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:38,110 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:38,533 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:38,805 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:39,013 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:39,349 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:39,541 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:39,773 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:39,925 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:40,541 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:40,741 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:40,948 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:41,173 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:41,389 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:41,557 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:41,733 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:41,981 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:42,158 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:42,334 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:42,476 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:42,660 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:42,885 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:43,094 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:43,341 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:43,516 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:43,669 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:43,805 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:44,021 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:44,181 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:44,621 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:44,773 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:56:44,958 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:45,189 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:45,389 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:45,613 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:45,797 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:46,070 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:46,317 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:46,493 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:56:46,653 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:46,861 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:47,749 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:47,933 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:48,125 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:48,437 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:48,677 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:48,781 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:49,029 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:49,245 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:49,429 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:49,724 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:49,908 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:50,020 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:50,254 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:56:50,438 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:56:50,877 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:51,077 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:56:51,662 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:55,425 : INFO : run.py : 15 :          make_logger() ] Main started
+[2018-04-07 16:58:56,016 : INFO : player.py : 32 :             __init__() ] Player instance
+[2018-04-07 16:58:56,925 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:58:57,093 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:58:57,245 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:58:57,525 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:57,700 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:57,845 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:57,933 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:58,045 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:58:58,269 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:58:58,460 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:58:58,605 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:58:58,637 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:58:58,781 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:58:58,869 : INFO : game_functions.py : 25 : check_keydown_events() ] move right
+[2018-04-07 16:58:59,069 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:58:59,204 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:58:59,253 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:58:59,397 : INFO : game_functions.py : 39 : check_keydown_events() ] Move up
+[2018-04-07 16:58:59,589 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:58:59,613 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:58:59,773 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:58:59,926 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:59:00,061 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:59:00,324 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:59:00,341 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:59:00,485 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:59:00,525 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:59:00,638 : INFO : game_functions.py : 42 : check_keydown_events() ] Move bottom
+[2018-04-07 16:59:00,686 : INFO : game_functions.py : 36 : check_keydown_events() ] Only 5 shots for each session
+[2018-04-07 16:59:00,805 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:59:01,005 : INFO : game_functions.py : 28 : check_keydown_events() ] move left
+[2018-04-07 16:59:01,197 : INFO : game_functions.py : 28 : check_keydown_events() ] move left

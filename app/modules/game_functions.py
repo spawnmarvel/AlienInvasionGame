@@ -22,10 +22,10 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
     if event.key == pygame.K_RIGHT:
         #move the ship to the right
         player.moving_right = True
-        logger.debug("move right")
+        logger.info("move right")
     elif event.key == pygame.K_LEFT:
         player.moving_left = True
-        logger.debug("move left")
+        logger.info("move left")
     elif event.key == pygame.K_SPACE:
         # create a new bullet and add it
         if len(bullets) < s_settings.bullets_allowed:
@@ -33,14 +33,13 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
             bullets.add(new_bullet)
             logger.debug("Shoot bullet")
         else:
-            logger.debug("Only 5 shots for each session")
-
+            logger.info("Only 5 shots for each session")
     elif event.key == pygame.K_UP:
         player.moving_top = True
-        logger.debug("Move top")
+        logger.info("Move up")
     elif event.key == pygame.K_DOWN:
         player.moving_bottom = True
-        logger.debug("Move bottom")
+        logger.info("Move bottom")
 
 def check_keyup_events(event, player):
     if event.key == pygame.K_RIGHT:
@@ -64,7 +63,8 @@ def update_bullets(bullets):
     #remove bullets beacuse they exist outside the screen (would just consumer more and more ram)
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
-            bullets.remove(bullet)   
+            bullets.remove(bullet)
+            logger.debug("Bullet removed outside screen")
         #print(len(bullets))
 
 def update_screen(s_settings, screen, player, bullets):

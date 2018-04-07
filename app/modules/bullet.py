@@ -22,7 +22,7 @@ class Bullet(Sprite):
 
         self.color = s_settings.bullet_color
         self.speed_factor = s_settings.bullet_speed_factor
-        logger.info("Bullet instance")
+        logger.debug("Bullet instance")
 
     def update(self):
         #move the bullet
