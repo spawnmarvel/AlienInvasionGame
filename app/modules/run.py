@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 def make_logger():
     FORMAT = "[%(asctime)s : %(levelname)s : %(filename)s : %(lineno)s : %(funcName)20s() ] %(message)s"
-    logging.basicConfig(filename="logs/logs.log", level=logging.INFO, format=FORMAT)
+    logging.basicConfig(filename="logs/logs.log", level=logging.DEBUG, format=FORMAT)
 	# simple format  # "%(asctime)s - %(levelname)s - %(message)s")
     logger = logging.getLogger("main")
     logger.info("Main started")
@@ -26,7 +26,6 @@ def run_game():
     hero = Player(game_settings, screen)
     #make agroup of bullets
     bullets = Group()
-
     #starts the main loop for the game, controll
     while True:
         # print("play")
@@ -35,8 +34,7 @@ def run_game():
         hero.update()
         game_function.update_bullets(bullets)
         # redraw the screen during each pass thorugh loop
-        game_function.update_screen(game_settings, screen, hero, bullets)
-        
+        game_function.update_screen(game_settings, screen, hero, bullets)        
 
 
 if __name__ == "__main__":

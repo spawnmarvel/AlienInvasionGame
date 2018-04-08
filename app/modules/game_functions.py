@@ -4,6 +4,7 @@ from bullet import Bullet
 import logging
 logger = logging.getLogger("Game functions")
 
+amount_of_bullets = 0
 
 def check_events(s_settings, screen, player, bullets):
     """key / mouse pressed"""
@@ -31,6 +32,8 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
         if len(bullets) < s_settings.bullets_allowed:
             new_bullet = Bullet(s_settings, screen, player)
             bullets.add(new_bullet)
+            global amount_of_bullets
+            amount_of_bullets = amount_of_bullets + 1
             logger.debug("Shoot bullet")
         else:
             logger.info("Only 5 shots for each session")
@@ -76,3 +79,7 @@ def update_screen(s_settings, screen, player, bullets):
     player.blitme()
     #make the most recentrly draw screen visible
     pygame.display.flip()
+
+def get_amount_of_bullets():
+    global amount_of_bullets
+    return amount_of_bullets
