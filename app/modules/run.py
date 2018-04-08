@@ -2,6 +2,7 @@
 import pygame
 from settings import Settings
 from player import Player
+from alien import Alien
 import game_functions as game_function
 from pygame.sprite import Group
 import logging
@@ -22,19 +23,21 @@ def run_game():
     game_settings = Settings()
     screen = pygame.display.set_mode((game_settings.screen_width, game_settings.screen_height))
     pygame.display.set_caption("Ant Invasion")
-
+    #player
     hero = Player(game_settings, screen)
     #make agroup of bullets
     bullets = Group()
+    #alien
+    alien = Alien(game_settings, screen)
     #starts the main loop for the game, controll
     while True:
         # print("play")
         #watch for keys and mouse
-        game_function.check_events(game_settings, screen, hero, bullets)
+        game_function.check_events(game_settings, screen, hero,  bullets)
         hero.update()
         game_function.update_bullets(bullets)
         # redraw the screen during each pass thorugh loop
-        game_function.update_screen(game_settings, screen, hero, bullets)        
+        game_function.update_screen(game_settings, screen, hero, alien, bullets)        
 
 
 if __name__ == "__main__":

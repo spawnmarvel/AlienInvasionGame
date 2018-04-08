@@ -43,6 +43,10 @@ def check_keydown_events(event,s_settings, screen, player, bullets):
     elif event.key == pygame.K_DOWN:
         player.moving_bottom = True
         logger.info("Move bottom")
+    elif event.key == pygame.K_q:
+        logger.info("Exit game")
+        sys.exit()
+        
 
 def check_keyup_events(event, player):
     if event.key == pygame.K_RIGHT:
@@ -70,13 +74,14 @@ def update_bullets(bullets):
             logger.debug("Bullet removed outside screen")
         #print(len(bullets))
 
-def update_screen(s_settings, screen, player, bullets):
+def update_screen(s_settings, screen, player, alien, bullets):
     """redraw the screen during each pass in loop"""
     screen.fill(s_settings.bg_color)
     #redraw all bullets behind ship and aliens
     for bullet in bullets.sprites():
         bullet.draw_bullet()
     player.blitme()
+    alien.blitme()
     #make the most recentrly draw screen visible
     pygame.display.flip()
 

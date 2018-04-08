@@ -4,7 +4,7 @@ class Settings():
     def __init__(self):
         self.screen_width = 700
         self.screen_height = 800
-        self.bg_color = (200, 200, 200)
+        self.bg_color = (255, 255, 255)
         #ant speed settings
         self.player_speed_factor = 1  # 1.5
         #bullet settings

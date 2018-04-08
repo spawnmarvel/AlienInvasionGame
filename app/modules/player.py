@@ -45,20 +45,20 @@ class Player():
         # print("bool right " +format(self.moving_right))
         #not move out to the right of the screen
         if self.moving_right and self.rect.right < self.screen_rect.right:
-            # print(format(self.rect.right) + "self right, screen right " + format(self.screen_rect.right))
+            logger.debug(format(self.rect.right) + " self right, screen right " + format(self.screen_rect.right))
             self.center_x += self.player_settings.player_speed_factor
             # print(format(self.moving_right))
         #not move out to the left of the screen
         elif self.moving_left and self.rect.left > 0:
-            # print(format(self.rect.left) + "self left, screen left " + format(self.screen_rect.left))
+            logger.debug(format(self.rect.left) + " self left, screen left " + format(self.screen_rect.left))
             self.center_x -= self.player_settings.player_speed_factor
         # not move passed bottom
         elif self.moving_bottom and self.rect.bottom < self.screen_rect.bottom:
-             # print(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
-             self.center_y += self.player_settings.player_speed_factor
+            logger.debug(format(self.rect.bottom) + " self bot, screen bot " + format(self.screen_rect.bottom))
+            self.center_y += self.player_settings.player_speed_factor
         # not move beyond top
         elif self.moving_top and self.rect.top > 0:
-            # print(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
+            logger.debug(format(self.rect.top) + " self top, screen top " + format(self.screen_rect.top))
             self.center_y -= self.player_settings.player_speed_factor
         
         
@@ -66,6 +66,7 @@ class Player():
         self.rect.centery = self.center_y
         
     
+
     def blitme(self):
         #draw the ship at its current location
         self.screen.blit(self.image, self.rect)
